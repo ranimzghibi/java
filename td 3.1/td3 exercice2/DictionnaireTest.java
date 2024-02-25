@@ -6,7 +6,7 @@ public class DictionnaireTest {
         Dictionnaire larousse = new Dictionnaire("Larousse",10);
         MotDico m1 = new MotDico("chat", "animal domestique ");
         MotDico m2 = new MotDico("chien", "animal domestique fidèle");
-        MotDico m3 = new MotDico("ranim", "est une fille belle");
+        MotDico m3 = new MotDico("scientifique", "Ce qui offre une source de connaissance");
         larousse.ajouterMot(m1);
         larousse.ajouterMot(m2);
         larousse.ajouterMot(m3);
